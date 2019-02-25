@@ -1,0 +1,23 @@
+{
+  "name": "bbot-geebot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geegge/bbot-geebot.git"
+  },
+  "author": "Günther Lösel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geegge/bbot-geebot/issues"
+  },
+  "homepage": "https://github.com/geegge/bbot-geebot#readme",
+  "dependencies": {
+    "bbot": "^1.4.0",
+    "esm": "^3.2.6"
+  }
+}

@@ -1,0 +1,45 @@
+{"message":"[core] bot loading  . . . . . ~(0_0)~","level":"info","timestamp":"2019-02-25T22:12:44.100Z"}
+{"message":"[adapter] loading adapter by path: ./adapters/shell","level":"debug","timestamp":"2019-02-25T22:12:44.111Z"}
+{"message":"[adapter] loading failed: Cannot find module './adapters/shell'\nRequire stack:\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/lib/adapter.js\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/index.js\n- /home/gue/projects/bbot-geebot/src/main.js\n- /home/gue/projects/bbot-geebot/src/index.js","level":"error","timestamp":"2019-02-25T22:12:44.113Z"}
+{"message":"Cannot find module './adapters/shell'\nRequire stack:\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/lib/adapter.js\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/index.js\n- /home/gue/projects/bbot-geebot/src/main.js\n- /home/gue/projects/bbot-geebot/src/index.js","level":"error","timestamp":"2019-02-25T22:12:44.113Z"}
+{"message":"[core] failed to load","level":"error","timestamp":"2019-02-25T22:12:44.114Z"}
+{"message":"[core] bot loading  . . . . . ~(0_0)~","level":"info","timestamp":"2019-02-25T22:23:17.074Z"}
+{"message":"[adapter] loading adapter by path: ./adapters/shell","level":"debug","timestamp":"2019-02-25T22:23:17.085Z"}
+{"message":"[adapter] loading failed: Cannot find module './adapters/shell'\nRequire stack:\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/lib/adapter.js\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/index.js\n- /home/gue/projects/bbot-geebot/src/main.js\n- /home/gue/projects/bbot-geebot/src/index.js","level":"error","timestamp":"2019-02-25T22:23:17.087Z"}
+{"message":"Cannot find module './adapters/shell'\nRequire stack:\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/lib/adapter.js\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/index.js\n- /home/gue/projects/bbot-geebot/src/main.js\n- /home/gue/projects/bbot-geebot/src/index.js","level":"error","timestamp":"2019-02-25T22:23:17.088Z"}
+{"message":"[core] failed to load","level":"error","timestamp":"2019-02-25T22:23:17.088Z"}
+{"message":"[core] bot loading  . . . . . ~(0_0)~","level":"info","timestamp":"2019-02-25T22:24:14.118Z"}
+{"message":"[adapter] loading adapter by path: ./adapters/shell","level":"debug","timestamp":"2019-02-25T22:24:14.126Z"}
+{"message":"[core] bot starting . . . . . ┌(O_O)┘ bzzzt whirr","level":"info","timestamp":"2019-02-25T22:24:14.450Z"}
+{"message":"[server] Port 3000 in use, retrying on 3001","level":"info","timestamp":"2019-02-25T22:24:14.464Z"}
+{"message":"[server] listening, see public stats: http://127.0.0.1:3001/public","level":"info","timestamp":"2019-02-25T22:24:14.466Z"}
+{"message":"[adapter] starting message adapter: shell-message-adapter","level":"debug","timestamp":"2019-02-25T22:24:14.467Z"}
+{"message":"[core] bot started  . . . . . ~(O_O)~ bleep bloop","level":"info","timestamp":"2019-02-25T22:24:14.485Z"}
+{"message":"[shell] Re-routing logs to shell UI from here...","level":"debug","timestamp":"2019-02-25T22:24:14.486Z"}
+{"message":"[thought] receive message ID 7dde137112c4e1eba1fc9b2b78a1f020","level":"info","timestamp":"2019-02-25T22:24:36.127Z"}
+{"message":"[thought] global hear processing incoming message ID 7dde137112c4e1eba1fc9b2b78a1f020","level":"debug","timestamp":"2019-02-25T22:24:36.129Z"}
+{"message":"[thought] global listen processing incoming message ID 7dde137112c4e1eba1fc9b2b78a1f020 against 3 branches","level":"debug","timestamp":"2019-02-25T22:24:36.131Z"}
+{"message":"[branch] message \"enter message for say Hello World\" matched branch branch_1 conditions","level":"debug","timestamp":"2019-02-25T22:24:36.132Z"}
+{"message":"[branch] executing TextBranch callback, ID branch_1","level":"debug","timestamp":"2019-02-25T22:24:36.133Z"}
+{"message":"[thought] respond to matched branch branch_1","level":"info","timestamp":"2019-02-25T22:24:36.135Z"}
+{"message":"[thought] global respond processing incoming message ID 7dde137112c4e1eba1fc9b2b78a1f020","level":"debug","timestamp":"2019-02-25T22:24:36.136Z"}
+{"message":"[branch] branch_1 process done (matched)","level":"debug","timestamp":"2019-02-25T22:24:36.136Z"}
+{"message":"[thought] skip understand, no branches to process","level":"debug","timestamp":"2019-02-25T22:24:36.136Z"}
+{"message":"[thought] skip act, no branches to process","level":"debug","timestamp":"2019-02-25T22:24:36.137Z"}
+{"message":"[thought] skip remember, no storage adapter","level":"debug","timestamp":"2019-02-25T22:24:36.138Z"}
+{"message":"[thought] receive message ID adbd4145f8cd04b117c19158d23eb2c8","level":"info","timestamp":"2019-02-25T22:24:49.511Z"}
+{"message":"[thought] global hear processing incoming message ID adbd4145f8cd04b117c19158d23eb2c8","level":"debug","timestamp":"2019-02-25T22:24:49.512Z"}
+{"message":"[thought] global listen processing incoming message ID adbd4145f8cd04b117c19158d23eb2c8 against 3 branches","level":"debug","timestamp":"2019-02-25T22:24:49.513Z"}
+{"message":"[branch] message \"say Hello World\" matched branch branch_1 conditions","level":"debug","timestamp":"2019-02-25T22:24:49.513Z"}
+{"message":"[branch] executing TextBranch callback, ID branch_1","level":"debug","timestamp":"2019-02-25T22:24:49.514Z"}
+{"message":"[thought] respond to matched branch branch_1","level":"info","timestamp":"2019-02-25T22:24:49.514Z"}
+{"message":"[thought] global respond processing incoming message ID adbd4145f8cd04b117c19158d23eb2c8","level":"debug","timestamp":"2019-02-25T22:24:49.516Z"}
+{"message":"[branch] branch_1 process done (matched)","level":"debug","timestamp":"2019-02-25T22:24:49.517Z"}
+{"message":"[thought] skip understand, no branches to process","level":"debug","timestamp":"2019-02-25T22:24:49.517Z"}
+{"message":"[thought] skip act, no branches to process","level":"debug","timestamp":"2019-02-25T22:24:49.517Z"}
+{"message":"[thought] skip remember, no storage adapter","level":"debug","timestamp":"2019-02-25T22:24:49.517Z"}
+{"message":"[core] bot loading  . . . . . ~(0_0)~","level":"info","timestamp":"2019-02-25T22:25:57.797Z"}
+{"message":"[adapter] loading adapter by path: ./adapters/shell","level":"debug","timestamp":"2019-02-25T22:25:57.808Z"}
+{"message":"[adapter] loading failed: Cannot find module './adapters/shell'\nRequire stack:\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/lib/adapter.js\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/index.js\n- /home/gue/projects/bbot-geebot/src/main.js\n- /home/gue/projects/bbot-geebot/index.js","level":"error","timestamp":"2019-02-25T22:25:57.810Z"}
+{"message":"Cannot find module './adapters/shell'\nRequire stack:\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/lib/adapter.js\n- /home/gue/projects/bbot-geebot/node_modules/bbot/dist/index.js\n- /home/gue/projects/bbot-geebot/src/main.js\n- /home/gue/projects/bbot-geebot/index.js","level":"error","timestamp":"2019-02-25T22:25:57.810Z"}
+{"message":"[core] failed to load","level":"error","timestamp":"2019-02-25T22:25:57.811Z"}
