@@ -1,3 +1,5 @@
-// Set options as a parameter, environment variable, or rc file.
-require = require("esm")(module /*, options*/);
-module.exports = require("./src/main.js");
+const bot = require("bbot");
+
+require("./src/main.js");
+
+bot.start();

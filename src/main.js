@@ -1,7 +1,3 @@
-import * as bot from "bbot";
-
-bot.global.text(/say Hello World/, b => {
-  b.respond(`Hello World!`);
-});
-
-bot.start();
+// Set options as a parameter, environment variable, or rc file.
+require = require("esm")(module /*, options*/);
+module.exports = require("./app.js");
