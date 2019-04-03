@@ -28,7 +28,7 @@ asimovDirective();
 bot.global.text(
   /(.*)/,
   b => {
-    const markovResponse = myMarkovChain.getMessage(b.match[1]);
+    const markovResponse = myMarkovChain.getMessage(b.match[1], 0.9);
     if (markovResponse) b.respond(markovResponse);
   },
   {

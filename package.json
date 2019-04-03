@@ -23,7 +23,7 @@
   "dependencies": {
     "bbot": "^1.4.0",
     "esm": "^3.2.20",
-    "markov-chain-chat": "git+https://github.com/geegge/markovChainChat.git"
+    "markov-chain-chat": "git+https://github.com/geegge/markovChainChat.git#v0.2.0"
   },
   "esm": {},
   "devDependencies": {
