@@ -5,8 +5,16 @@ import { asimovDirective } from "./rules/directives";
 import path from "path";
 import markovChainChat from "markov-chain-chat";
 
+const trainingData =
+  process.env.MARKOVCHAINCHAT_TRAINING_DATA || "../samples/chatlog_simple.txt";
+
 const myMarkovChain = new markovChainChat(
-  path.resolve(__dirname, "../samples/chatlog_simple.txt")
+  path.resolve(__dirname, trainingData)
+);
+
+console.log(
+  "path.resolve(__dirname, trainingData): " +
+    path.resolve(__dirname, trainingData)
 );
 
 asimovDirective();
