@@ -1,5 +1,7 @@
 import * as bot from "bbot";
-import * as packageJson from "../../package.json";
+
+const dotEnvBotName = process.env.BOT_NAME || "geebot";
+const dotEnvBotVersion = process.env.BOT_VERSION || "1.0.0";
 
 export const asimovDirective = () => {
   bot.global.direct(
@@ -17,7 +19,7 @@ export const asimovDirective = () => {
     {
       contains: "identify"
     },
-    b => b.reply("GeeBot, Version " + packageJson.version),
+    b => b.reply(dotEnvBotName + ", Version " + dotEnvBotVersion),
     {
       id: "asimovDirective-direct-identify",
       force: true
