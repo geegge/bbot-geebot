@@ -12,11 +12,6 @@ const myMarkovChain = new markovChainChat(
   path.resolve(__dirname, trainingData)
 );
 
-console.log(
-  "path.resolve(__dirname, trainingData): " +
-    path.resolve(__dirname, trainingData)
-);
-
 asimovDirective();
 
 // bot.global.text(/say hello to (.*)/i, b => {
