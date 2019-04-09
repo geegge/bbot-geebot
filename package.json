@@ -8,7 +8,8 @@
     "watch": "nodemon --experimental-modules index.js",
     "debug": "nodemon --experimental-modules --inspect index.js",
     "chat": "npm start -- -m rocketchat",
-    "chat-watch": "npm run watch -- -m rocketchat"
+    "chat:production": "npm run chat",
+    "chat:development": "npm run watch -- -m rocketchat"
   },
   "repository": {
     "type": "git",
