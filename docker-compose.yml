@@ -4,7 +4,9 @@ services:
   bbot-geebot:
     image: bbot-geebot
     build: .
-    volumes: [".:/usr/src/app/"]
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
     logging:
       driver: "json-file"
       options:
